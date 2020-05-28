@@ -1,0 +1,606 @@
+2.3599 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.4054 	WARNING 	User requested fullscreen with size [1088  614], but screen is actually [1360, 768]. Using actual size
+10.2475 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000254480718D0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025447FB05C0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.2476 	EXP 	window1: recordFrameIntervals = False
+10.4135 	EXP 	window1: recordFrameIntervals = True
+10.5970 	EXP 	window1: recordFrameIntervals = False
+11.2830 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.2904 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+11.2910 	EXP 	window1: mouseVisible = False
+11.3094 	EXP 	Created trial1Target = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial1Target', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.3244 	EXP 	Created trial1Home = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial1Home', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.3400 	EXP 	Created trial1Cursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial1Cursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.3483 	EXP 	Created trial1Num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial1Num', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='45', units='height', win=Window(...), wrapWidth=1)
+11.3597 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.3629 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+11.3634 	EXP 	window1: mouseVisible = False
+11.3791 	EXP 	Created trial2Target = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial2Target', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.3942 	EXP 	Created trial2Home = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial2Home', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.4091 	EXP 	Created trial2Cursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trial2Cursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.4128 	EXP 	Created trial2Num = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial2Num', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='45', units='height', win=Window(...), wrapWidth=1)
+11.4196 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Thanks', units='height', win=Window(...), wrapWidth=1)
+11.4555 	EXP 	instr1: autoDraw = True
+11.9539 	DATA 	Keypress: space
+11.9627 	EXP 	instr1: autoDraw = False
+11.9627 	EXP 	fix1: autoDraw = True
+12.9485 	EXP 	Created sequence: sequential, trialTypes=1, nReps=45, seed=None
+12.9495 	EXP 	New trial (rep=0, index=0): None
+12.9659 	EXP 	fix1: autoDraw = False
+12.9659 	EXP 	fix1: autoDraw = False
+12.9659 	EXP 	trial1Num: text = '1'
+12.9659 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+12.9659 	EXP 	trial1Target: autoDraw = True
+12.9659 	EXP 	trial1Home: autoDraw = True
+12.9659 	EXP 	trial1Cursor: autoDraw = True
+12.9659 	EXP 	trial1Num: autoDraw = True
+13.6799 	DATA 	Keypress: space
+13.6994 	EXP 	New trial (rep=1, index=0): None
+13.7143 	EXP 	trial1Target: autoDraw = False
+13.7143 	EXP 	trial1Home: autoDraw = False
+13.7143 	EXP 	trial1Cursor: autoDraw = False
+13.7143 	EXP 	trial1Num: autoDraw = False
+13.7143 	EXP 	trial1Num: text = '2'
+13.7143 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+13.7143 	EXP 	trial1Target: autoDraw = True
+13.7143 	EXP 	trial1Home: autoDraw = True
+13.7143 	EXP 	trial1Cursor: autoDraw = True
+13.7143 	EXP 	trial1Num: autoDraw = True
+13.8761 	EXP 	New trial (rep=2, index=0): None
+13.8818 	DATA 	Keypress: space
+13.8905 	EXP 	trial1Target: autoDraw = False
+13.8905 	EXP 	trial1Home: autoDraw = False
+13.8905 	EXP 	trial1Cursor: autoDraw = False
+13.8905 	EXP 	trial1Num: autoDraw = False
+13.8905 	EXP 	trial1Num: text = '3'
+13.8905 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+13.8905 	EXP 	trial1Target: autoDraw = True
+13.8905 	EXP 	trial1Home: autoDraw = True
+13.8905 	EXP 	trial1Cursor: autoDraw = True
+13.8905 	EXP 	trial1Num: autoDraw = True
+14.0758 	EXP 	New trial (rep=3, index=0): None
+14.0790 	DATA 	Keypress: space
+14.0882 	EXP 	trial1Target: autoDraw = False
+14.0882 	EXP 	trial1Home: autoDraw = False
+14.0882 	EXP 	trial1Cursor: autoDraw = False
+14.0882 	EXP 	trial1Num: autoDraw = False
+14.0882 	EXP 	trial1Num: text = '4'
+14.0882 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+14.0882 	EXP 	trial1Target: autoDraw = True
+14.0882 	EXP 	trial1Home: autoDraw = True
+14.0882 	EXP 	trial1Cursor: autoDraw = True
+14.0882 	EXP 	trial1Num: autoDraw = True
+14.2596 	EXP 	New trial (rep=4, index=0): None
+14.2632 	DATA 	Keypress: space
+14.2722 	EXP 	trial1Target: autoDraw = False
+14.2722 	EXP 	trial1Home: autoDraw = False
+14.2722 	EXP 	trial1Cursor: autoDraw = False
+14.2722 	EXP 	trial1Num: autoDraw = False
+14.2722 	EXP 	trial1Num: text = '5'
+14.2722 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+14.2722 	EXP 	trial1Target: autoDraw = True
+14.2722 	EXP 	trial1Home: autoDraw = True
+14.2722 	EXP 	trial1Cursor: autoDraw = True
+14.2722 	EXP 	trial1Num: autoDraw = True
+14.4593 	EXP 	New trial (rep=5, index=0): None
+14.4650 	DATA 	Keypress: space
+14.4741 	EXP 	trial1Target: autoDraw = False
+14.4741 	EXP 	trial1Home: autoDraw = False
+14.4741 	EXP 	trial1Cursor: autoDraw = False
+14.4741 	EXP 	trial1Num: autoDraw = False
+14.4741 	EXP 	trial1Num: text = '6'
+14.4741 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+14.4741 	EXP 	trial1Target: autoDraw = True
+14.4741 	EXP 	trial1Home: autoDraw = True
+14.4741 	EXP 	trial1Cursor: autoDraw = True
+14.4741 	EXP 	trial1Num: autoDraw = True
+14.8011 	DATA 	Keypress: space
+14.8253 	EXP 	New trial (rep=6, index=0): None
+14.8394 	EXP 	trial1Target: autoDraw = False
+14.8394 	EXP 	trial1Home: autoDraw = False
+14.8394 	EXP 	trial1Cursor: autoDraw = False
+14.8394 	EXP 	trial1Num: autoDraw = False
+14.8394 	EXP 	trial1Num: text = '7'
+14.8394 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+14.8394 	EXP 	trial1Target: autoDraw = True
+14.8394 	EXP 	trial1Home: autoDraw = True
+14.8394 	EXP 	trial1Cursor: autoDraw = True
+14.8394 	EXP 	trial1Num: autoDraw = True
+14.9847 	DATA 	Keypress: space
+15.0101 	EXP 	New trial (rep=7, index=0): None
+15.0246 	EXP 	trial1Target: autoDraw = False
+15.0246 	EXP 	trial1Home: autoDraw = False
+15.0246 	EXP 	trial1Cursor: autoDraw = False
+15.0246 	EXP 	trial1Num: autoDraw = False
+15.0246 	EXP 	trial1Num: text = '8'
+15.0246 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+15.0246 	EXP 	trial1Target: autoDraw = True
+15.0246 	EXP 	trial1Home: autoDraw = True
+15.0246 	EXP 	trial1Cursor: autoDraw = True
+15.0246 	EXP 	trial1Num: autoDraw = True
+15.2127 	DATA 	Keypress: space
+15.2259 	EXP 	New trial (rep=8, index=0): None
+15.2406 	EXP 	trial1Target: autoDraw = False
+15.2406 	EXP 	trial1Home: autoDraw = False
+15.2406 	EXP 	trial1Cursor: autoDraw = False
+15.2406 	EXP 	trial1Num: autoDraw = False
+15.2406 	EXP 	trial1Num: text = '9'
+15.2406 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+15.2406 	EXP 	trial1Target: autoDraw = True
+15.2406 	EXP 	trial1Home: autoDraw = True
+15.2406 	EXP 	trial1Cursor: autoDraw = True
+15.2406 	EXP 	trial1Num: autoDraw = True
+15.4792 	DATA 	Keypress: space
+15.4932 	EXP 	New trial (rep=9, index=0): None
+15.5076 	EXP 	trial1Target: autoDraw = False
+15.5076 	EXP 	trial1Home: autoDraw = False
+15.5076 	EXP 	trial1Cursor: autoDraw = False
+15.5076 	EXP 	trial1Num: autoDraw = False
+15.5076 	EXP 	trial1Num: text = '10'
+15.5076 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+15.5076 	EXP 	trial1Target: autoDraw = True
+15.5076 	EXP 	trial1Home: autoDraw = True
+15.5076 	EXP 	trial1Cursor: autoDraw = True
+15.5076 	EXP 	trial1Num: autoDraw = True
+15.7292 	DATA 	Keypress: space
+15.7426 	EXP 	New trial (rep=10, index=0): None
+15.7541 	EXP 	trial1Target: autoDraw = False
+15.7541 	EXP 	trial1Home: autoDraw = False
+15.7541 	EXP 	trial1Cursor: autoDraw = False
+15.7541 	EXP 	trial1Num: autoDraw = False
+15.7541 	EXP 	trial1Num: text = '11'
+15.7541 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+15.7541 	EXP 	trial1Target: autoDraw = True
+15.7541 	EXP 	trial1Home: autoDraw = True
+15.7541 	EXP 	trial1Cursor: autoDraw = True
+15.7541 	EXP 	trial1Num: autoDraw = True
+15.8292 	DATA 	Keypress: space
+15.8420 	EXP 	New trial (rep=11, index=0): None
+15.8549 	EXP 	trial1Target: autoDraw = False
+15.8549 	EXP 	trial1Home: autoDraw = False
+15.8549 	EXP 	trial1Cursor: autoDraw = False
+15.8549 	EXP 	trial1Num: autoDraw = False
+15.8549 	EXP 	trial1Num: text = '12'
+15.8549 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+15.8549 	EXP 	trial1Target: autoDraw = True
+15.8549 	EXP 	trial1Home: autoDraw = True
+15.8549 	EXP 	trial1Cursor: autoDraw = True
+15.8549 	EXP 	trial1Num: autoDraw = True
+16.0176 	DATA 	Keypress: space
+16.0427 	EXP 	New trial (rep=12, index=0): None
+16.0553 	EXP 	trial1Target: autoDraw = False
+16.0553 	EXP 	trial1Home: autoDraw = False
+16.0553 	EXP 	trial1Cursor: autoDraw = False
+16.0553 	EXP 	trial1Num: autoDraw = False
+16.0553 	EXP 	trial1Num: text = '13'
+16.0553 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.0553 	EXP 	trial1Target: autoDraw = True
+16.0553 	EXP 	trial1Home: autoDraw = True
+16.0553 	EXP 	trial1Cursor: autoDraw = True
+16.0553 	EXP 	trial1Num: autoDraw = True
+16.1457 	DATA 	Keypress: space
+16.1611 	EXP 	New trial (rep=13, index=0): None
+16.1726 	EXP 	trial1Target: autoDraw = False
+16.1726 	EXP 	trial1Home: autoDraw = False
+16.1726 	EXP 	trial1Cursor: autoDraw = False
+16.1726 	EXP 	trial1Num: autoDraw = False
+16.1726 	EXP 	trial1Num: text = '14'
+16.1726 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.1726 	EXP 	trial1Target: autoDraw = True
+16.1726 	EXP 	trial1Home: autoDraw = True
+16.1726 	EXP 	trial1Cursor: autoDraw = True
+16.1726 	EXP 	trial1Num: autoDraw = True
+16.3127 	DATA 	Keypress: space
+16.3263 	EXP 	New trial (rep=14, index=0): None
+16.3378 	EXP 	trial1Target: autoDraw = False
+16.3378 	EXP 	trial1Home: autoDraw = False
+16.3378 	EXP 	trial1Cursor: autoDraw = False
+16.3378 	EXP 	trial1Num: autoDraw = False
+16.3378 	EXP 	trial1Num: text = '15'
+16.3378 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.3378 	EXP 	trial1Target: autoDraw = True
+16.3378 	EXP 	trial1Home: autoDraw = True
+16.3378 	EXP 	trial1Cursor: autoDraw = True
+16.3378 	EXP 	trial1Num: autoDraw = True
+16.4183 	DATA 	Keypress: space
+16.4421 	EXP 	New trial (rep=15, index=0): None
+16.4537 	EXP 	trial1Target: autoDraw = False
+16.4537 	EXP 	trial1Home: autoDraw = False
+16.4537 	EXP 	trial1Cursor: autoDraw = False
+16.4537 	EXP 	trial1Num: autoDraw = False
+16.4537 	EXP 	trial1Num: text = '16'
+16.4537 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.4537 	EXP 	trial1Target: autoDraw = True
+16.4537 	EXP 	trial1Home: autoDraw = True
+16.4537 	EXP 	trial1Cursor: autoDraw = True
+16.4537 	EXP 	trial1Num: autoDraw = True
+16.6014 	DATA 	Keypress: space
+16.6250 	EXP 	New trial (rep=16, index=0): None
+16.6363 	EXP 	trial1Target: autoDraw = False
+16.6363 	EXP 	trial1Home: autoDraw = False
+16.6363 	EXP 	trial1Cursor: autoDraw = False
+16.6363 	EXP 	trial1Num: autoDraw = False
+16.6363 	EXP 	trial1Num: text = '17'
+16.6363 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.6363 	EXP 	trial1Target: autoDraw = True
+16.6363 	EXP 	trial1Home: autoDraw = True
+16.6363 	EXP 	trial1Cursor: autoDraw = True
+16.6363 	EXP 	trial1Num: autoDraw = True
+16.7123 	DATA 	Keypress: space
+16.7252 	EXP 	New trial (rep=17, index=0): None
+16.7370 	EXP 	trial1Target: autoDraw = False
+16.7370 	EXP 	trial1Home: autoDraw = False
+16.7370 	EXP 	trial1Cursor: autoDraw = False
+16.7370 	EXP 	trial1Num: autoDraw = False
+16.7370 	EXP 	trial1Num: text = '18'
+16.7370 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.7370 	EXP 	trial1Target: autoDraw = True
+16.7370 	EXP 	trial1Home: autoDraw = True
+16.7370 	EXP 	trial1Cursor: autoDraw = True
+16.7370 	EXP 	trial1Num: autoDraw = True
+16.8622 	DATA 	Keypress: space
+16.8763 	EXP 	New trial (rep=18, index=0): None
+16.8879 	EXP 	trial1Target: autoDraw = False
+16.8879 	EXP 	trial1Home: autoDraw = False
+16.8879 	EXP 	trial1Cursor: autoDraw = False
+16.8879 	EXP 	trial1Num: autoDraw = False
+16.8879 	EXP 	trial1Num: text = '19'
+16.8879 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+16.8879 	EXP 	trial1Target: autoDraw = True
+16.8879 	EXP 	trial1Home: autoDraw = True
+16.8879 	EXP 	trial1Cursor: autoDraw = True
+16.8879 	EXP 	trial1Num: autoDraw = True
+17.0789 	DATA 	Keypress: space
+17.0916 	EXP 	New trial (rep=19, index=0): None
+17.1031 	EXP 	trial1Target: autoDraw = False
+17.1031 	EXP 	trial1Home: autoDraw = False
+17.1031 	EXP 	trial1Cursor: autoDraw = False
+17.1031 	EXP 	trial1Num: autoDraw = False
+17.1031 	EXP 	trial1Num: text = '20'
+17.1031 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+17.1031 	EXP 	trial1Target: autoDraw = True
+17.1031 	EXP 	trial1Home: autoDraw = True
+17.1031 	EXP 	trial1Cursor: autoDraw = True
+17.1031 	EXP 	trial1Num: autoDraw = True
+17.2623 	DATA 	Keypress: space
+17.2757 	EXP 	New trial (rep=20, index=0): None
+17.2877 	EXP 	trial1Target: autoDraw = False
+17.2877 	EXP 	trial1Home: autoDraw = False
+17.2877 	EXP 	trial1Cursor: autoDraw = False
+17.2877 	EXP 	trial1Num: autoDraw = False
+17.2877 	EXP 	trial1Num: text = '21'
+17.2877 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+17.2877 	EXP 	trial1Target: autoDraw = True
+17.2877 	EXP 	trial1Home: autoDraw = True
+17.2877 	EXP 	trial1Cursor: autoDraw = True
+17.2877 	EXP 	trial1Num: autoDraw = True
+17.4455 	DATA 	Keypress: space
+17.4592 	EXP 	New trial (rep=21, index=0): None
+17.4717 	EXP 	trial1Target: autoDraw = False
+17.4717 	EXP 	trial1Home: autoDraw = False
+17.4717 	EXP 	trial1Cursor: autoDraw = False
+17.4717 	EXP 	trial1Num: autoDraw = False
+17.4717 	EXP 	trial1Num: text = '22'
+17.4717 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+17.4717 	EXP 	trial1Target: autoDraw = True
+17.4717 	EXP 	trial1Home: autoDraw = True
+17.4717 	EXP 	trial1Cursor: autoDraw = True
+17.4717 	EXP 	trial1Num: autoDraw = True
+17.6182 	DATA 	Keypress: space
+17.6403 	EXP 	New trial (rep=22, index=0): None
+17.6527 	EXP 	trial1Target: autoDraw = False
+17.6527 	EXP 	trial1Home: autoDraw = False
+17.6527 	EXP 	trial1Cursor: autoDraw = False
+17.6527 	EXP 	trial1Num: autoDraw = False
+17.6527 	EXP 	trial1Num: text = '23'
+17.6527 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+17.6527 	EXP 	trial1Target: autoDraw = True
+17.6527 	EXP 	trial1Home: autoDraw = True
+17.6527 	EXP 	trial1Cursor: autoDraw = True
+17.6527 	EXP 	trial1Num: autoDraw = True
+17.7955 	DATA 	Keypress: space
+17.8086 	EXP 	New trial (rep=23, index=0): None
+17.8200 	EXP 	trial1Target: autoDraw = False
+17.8200 	EXP 	trial1Home: autoDraw = False
+17.8200 	EXP 	trial1Cursor: autoDraw = False
+17.8200 	EXP 	trial1Num: autoDraw = False
+17.8200 	EXP 	trial1Num: text = '24'
+17.8200 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+17.8200 	EXP 	trial1Target: autoDraw = True
+17.8200 	EXP 	trial1Home: autoDraw = True
+17.8200 	EXP 	trial1Cursor: autoDraw = True
+17.8200 	EXP 	trial1Num: autoDraw = True
+17.9789 	DATA 	Keypress: space
+17.9925 	EXP 	New trial (rep=24, index=0): None
+18.0040 	EXP 	trial1Target: autoDraw = False
+18.0040 	EXP 	trial1Home: autoDraw = False
+18.0040 	EXP 	trial1Cursor: autoDraw = False
+18.0040 	EXP 	trial1Num: autoDraw = False
+18.0040 	EXP 	trial1Num: text = '25'
+18.0040 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.0040 	EXP 	trial1Target: autoDraw = True
+18.0040 	EXP 	trial1Home: autoDraw = True
+18.0040 	EXP 	trial1Cursor: autoDraw = True
+18.0040 	EXP 	trial1Num: autoDraw = True
+18.1679 	DATA 	Keypress: space
+18.1902 	EXP 	New trial (rep=25, index=0): None
+18.2024 	EXP 	trial1Target: autoDraw = False
+18.2024 	EXP 	trial1Home: autoDraw = False
+18.2024 	EXP 	trial1Cursor: autoDraw = False
+18.2024 	EXP 	trial1Num: autoDraw = False
+18.2024 	EXP 	trial1Num: text = '26'
+18.2024 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.2024 	EXP 	trial1Target: autoDraw = True
+18.2024 	EXP 	trial1Home: autoDraw = True
+18.2024 	EXP 	trial1Cursor: autoDraw = True
+18.2024 	EXP 	trial1Num: autoDraw = True
+18.3785 	DATA 	Keypress: space
+18.3918 	EXP 	New trial (rep=26, index=0): None
+18.4032 	EXP 	trial1Target: autoDraw = False
+18.4032 	EXP 	trial1Home: autoDraw = False
+18.4032 	EXP 	trial1Cursor: autoDraw = False
+18.4032 	EXP 	trial1Num: autoDraw = False
+18.4032 	EXP 	trial1Num: text = '27'
+18.4032 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.4032 	EXP 	trial1Target: autoDraw = True
+18.4032 	EXP 	trial1Home: autoDraw = True
+18.4032 	EXP 	trial1Cursor: autoDraw = True
+18.4032 	EXP 	trial1Num: autoDraw = True
+18.5622 	DATA 	Keypress: space
+18.5753 	EXP 	New trial (rep=27, index=0): None
+18.5872 	EXP 	trial1Target: autoDraw = False
+18.5872 	EXP 	trial1Home: autoDraw = False
+18.5872 	EXP 	trial1Cursor: autoDraw = False
+18.5872 	EXP 	trial1Num: autoDraw = False
+18.5872 	EXP 	trial1Num: text = '28'
+18.5872 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.5872 	EXP 	trial1Target: autoDraw = True
+18.5872 	EXP 	trial1Home: autoDraw = True
+18.5872 	EXP 	trial1Cursor: autoDraw = True
+18.5872 	EXP 	trial1Num: autoDraw = True
+18.7618 	DATA 	Keypress: space
+18.7752 	EXP 	New trial (rep=28, index=0): None
+18.7869 	EXP 	trial1Target: autoDraw = False
+18.7869 	EXP 	trial1Home: autoDraw = False
+18.7869 	EXP 	trial1Cursor: autoDraw = False
+18.7869 	EXP 	trial1Num: autoDraw = False
+18.7869 	EXP 	trial1Num: text = '29'
+18.7869 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.7869 	EXP 	trial1Target: autoDraw = True
+18.7869 	EXP 	trial1Home: autoDraw = True
+18.7869 	EXP 	trial1Cursor: autoDraw = True
+18.7869 	EXP 	trial1Num: autoDraw = True
+18.9452 	DATA 	Keypress: space
+18.9590 	EXP 	New trial (rep=29, index=0): None
+18.9714 	EXP 	trial1Target: autoDraw = False
+18.9714 	EXP 	trial1Home: autoDraw = False
+18.9714 	EXP 	trial1Cursor: autoDraw = False
+18.9714 	EXP 	trial1Num: autoDraw = False
+18.9714 	EXP 	trial1Num: text = '30'
+18.9714 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+18.9714 	EXP 	trial1Target: autoDraw = True
+18.9714 	EXP 	trial1Home: autoDraw = True
+18.9714 	EXP 	trial1Cursor: autoDraw = True
+18.9714 	EXP 	trial1Num: autoDraw = True
+19.1679 	DATA 	Keypress: space
+19.1912 	EXP 	New trial (rep=30, index=0): None
+19.2034 	EXP 	trial1Target: autoDraw = False
+19.2034 	EXP 	trial1Home: autoDraw = False
+19.2034 	EXP 	trial1Cursor: autoDraw = False
+19.2034 	EXP 	trial1Num: autoDraw = False
+19.2034 	EXP 	trial1Num: text = '31'
+19.2034 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+19.2034 	EXP 	trial1Target: autoDraw = True
+19.2034 	EXP 	trial1Home: autoDraw = True
+19.2034 	EXP 	trial1Cursor: autoDraw = True
+19.2034 	EXP 	trial1Num: autoDraw = True
+19.3451 	DATA 	Keypress: space
+19.3583 	EXP 	New trial (rep=31, index=0): None
+19.3693 	EXP 	trial1Target: autoDraw = False
+19.3693 	EXP 	trial1Home: autoDraw = False
+19.3693 	EXP 	trial1Cursor: autoDraw = False
+19.3693 	EXP 	trial1Num: autoDraw = False
+19.3693 	EXP 	trial1Num: text = '32'
+19.3693 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+19.3693 	EXP 	trial1Target: autoDraw = True
+19.3693 	EXP 	trial1Home: autoDraw = True
+19.3693 	EXP 	trial1Cursor: autoDraw = True
+19.3693 	EXP 	trial1Num: autoDraw = True
+19.5283 	DATA 	Keypress: space
+19.5408 	EXP 	New trial (rep=32, index=0): None
+19.5524 	EXP 	trial1Target: autoDraw = False
+19.5524 	EXP 	trial1Home: autoDraw = False
+19.5524 	EXP 	trial1Cursor: autoDraw = False
+19.5524 	EXP 	trial1Num: autoDraw = False
+19.5524 	EXP 	trial1Num: text = '33'
+19.5524 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+19.5524 	EXP 	trial1Target: autoDraw = True
+19.5524 	EXP 	trial1Home: autoDraw = True
+19.5524 	EXP 	trial1Cursor: autoDraw = True
+19.5524 	EXP 	trial1Num: autoDraw = True
+19.7282 	DATA 	Keypress: space
+19.7414 	EXP 	New trial (rep=33, index=0): None
+19.7531 	EXP 	trial1Target: autoDraw = False
+19.7531 	EXP 	trial1Home: autoDraw = False
+19.7531 	EXP 	trial1Cursor: autoDraw = False
+19.7531 	EXP 	trial1Num: autoDraw = False
+19.7531 	EXP 	trial1Num: text = '34'
+19.7531 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+19.7531 	EXP 	trial1Target: autoDraw = True
+19.7531 	EXP 	trial1Home: autoDraw = True
+19.7531 	EXP 	trial1Cursor: autoDraw = True
+19.7531 	EXP 	trial1Num: autoDraw = True
+19.9118 	DATA 	Keypress: space
+19.9286 	EXP 	New trial (rep=34, index=0): None
+19.9402 	EXP 	trial1Target: autoDraw = False
+19.9402 	EXP 	trial1Home: autoDraw = False
+19.9402 	EXP 	trial1Cursor: autoDraw = False
+19.9402 	EXP 	trial1Num: autoDraw = False
+19.9402 	EXP 	trial1Num: text = '35'
+19.9402 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+19.9402 	EXP 	trial1Target: autoDraw = True
+19.9402 	EXP 	trial1Home: autoDraw = True
+19.9402 	EXP 	trial1Cursor: autoDraw = True
+19.9402 	EXP 	trial1Num: autoDraw = True
+20.1238 	EXP 	New trial (rep=35, index=0): None
+20.1275 	DATA 	Keypress: space
+20.1367 	EXP 	trial1Target: autoDraw = False
+20.1367 	EXP 	trial1Home: autoDraw = False
+20.1367 	EXP 	trial1Cursor: autoDraw = False
+20.1367 	EXP 	trial1Num: autoDraw = False
+20.1367 	EXP 	trial1Num: text = '36'
+20.1367 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+20.1367 	EXP 	trial1Target: autoDraw = True
+20.1367 	EXP 	trial1Home: autoDraw = True
+20.1367 	EXP 	trial1Cursor: autoDraw = True
+20.1367 	EXP 	trial1Num: autoDraw = True
+20.3119 	DATA 	Keypress: space
+20.3250 	EXP 	New trial (rep=36, index=0): None
+20.3361 	EXP 	trial1Target: autoDraw = False
+20.3361 	EXP 	trial1Home: autoDraw = False
+20.3361 	EXP 	trial1Cursor: autoDraw = False
+20.3361 	EXP 	trial1Num: autoDraw = False
+20.3361 	EXP 	trial1Num: text = '37'
+20.3361 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+20.3361 	EXP 	trial1Target: autoDraw = True
+20.3361 	EXP 	trial1Home: autoDraw = True
+20.3361 	EXP 	trial1Cursor: autoDraw = True
+20.3361 	EXP 	trial1Num: autoDraw = True
+20.5082 	EXP 	New trial (rep=37, index=0): None
+20.5114 	DATA 	Keypress: space
+20.5196 	EXP 	trial1Target: autoDraw = False
+20.5196 	EXP 	trial1Home: autoDraw = False
+20.5196 	EXP 	trial1Cursor: autoDraw = False
+20.5196 	EXP 	trial1Num: autoDraw = False
+20.5196 	EXP 	trial1Num: text = '38'
+20.5196 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+20.5196 	EXP 	trial1Target: autoDraw = True
+20.5196 	EXP 	trial1Home: autoDraw = True
+20.5196 	EXP 	trial1Cursor: autoDraw = True
+20.5196 	EXP 	trial1Num: autoDraw = True
+20.7114 	DATA 	Keypress: space
+20.7241 	EXP 	New trial (rep=38, index=0): None
+20.7360 	EXP 	trial1Target: autoDraw = False
+20.7360 	EXP 	trial1Home: autoDraw = False
+20.7360 	EXP 	trial1Cursor: autoDraw = False
+20.7360 	EXP 	trial1Num: autoDraw = False
+20.7360 	EXP 	trial1Num: text = '39'
+20.7360 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+20.7360 	EXP 	trial1Target: autoDraw = True
+20.7360 	EXP 	trial1Home: autoDraw = True
+20.7360 	EXP 	trial1Cursor: autoDraw = True
+20.7360 	EXP 	trial1Num: autoDraw = True
+20.9113 	DATA 	Keypress: space
+20.9239 	EXP 	New trial (rep=39, index=0): None
+20.9363 	EXP 	trial1Target: autoDraw = False
+20.9363 	EXP 	trial1Home: autoDraw = False
+20.9363 	EXP 	trial1Cursor: autoDraw = False
+20.9363 	EXP 	trial1Num: autoDraw = False
+20.9363 	EXP 	trial1Num: text = '40'
+20.9363 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+20.9363 	EXP 	trial1Target: autoDraw = True
+20.9363 	EXP 	trial1Home: autoDraw = True
+20.9363 	EXP 	trial1Cursor: autoDraw = True
+20.9363 	EXP 	trial1Num: autoDraw = True
+21.1068 	EXP 	New trial (rep=40, index=0): None
+21.1101 	DATA 	Keypress: space
+21.1187 	EXP 	trial1Target: autoDraw = False
+21.1187 	EXP 	trial1Home: autoDraw = False
+21.1187 	EXP 	trial1Cursor: autoDraw = False
+21.1187 	EXP 	trial1Num: autoDraw = False
+21.1187 	EXP 	trial1Num: text = '41'
+21.1187 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+21.1187 	EXP 	trial1Target: autoDraw = True
+21.1187 	EXP 	trial1Home: autoDraw = True
+21.1187 	EXP 	trial1Cursor: autoDraw = True
+21.1187 	EXP 	trial1Num: autoDraw = True
+21.3071 	EXP 	New trial (rep=41, index=0): None
+21.3104 	DATA 	Keypress: space
+21.3195 	EXP 	trial1Target: autoDraw = False
+21.3195 	EXP 	trial1Home: autoDraw = False
+21.3195 	EXP 	trial1Cursor: autoDraw = False
+21.3195 	EXP 	trial1Num: autoDraw = False
+21.3195 	EXP 	trial1Num: text = '42'
+21.3195 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+21.3195 	EXP 	trial1Target: autoDraw = True
+21.3195 	EXP 	trial1Home: autoDraw = True
+21.3195 	EXP 	trial1Cursor: autoDraw = True
+21.3195 	EXP 	trial1Num: autoDraw = True
+21.5089 	EXP 	New trial (rep=42, index=0): None
+21.5123 	DATA 	Keypress: space
+21.5210 	EXP 	trial1Target: autoDraw = False
+21.5210 	EXP 	trial1Home: autoDraw = False
+21.5210 	EXP 	trial1Cursor: autoDraw = False
+21.5210 	EXP 	trial1Num: autoDraw = False
+21.5210 	EXP 	trial1Num: text = '43'
+21.5210 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+21.5210 	EXP 	trial1Target: autoDraw = True
+21.5210 	EXP 	trial1Home: autoDraw = True
+21.5210 	EXP 	trial1Cursor: autoDraw = True
+21.5210 	EXP 	trial1Num: autoDraw = True
+21.7111 	DATA 	Keypress: space
+21.7244 	EXP 	New trial (rep=43, index=0): None
+21.7355 	EXP 	trial1Target: autoDraw = False
+21.7355 	EXP 	trial1Home: autoDraw = False
+21.7355 	EXP 	trial1Cursor: autoDraw = False
+21.7355 	EXP 	trial1Num: autoDraw = False
+21.7355 	EXP 	trial1Num: text = '44'
+21.7355 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+21.7355 	EXP 	trial1Target: autoDraw = True
+21.7355 	EXP 	trial1Home: autoDraw = True
+21.7355 	EXP 	trial1Cursor: autoDraw = True
+21.7355 	EXP 	trial1Num: autoDraw = True
+21.8778 	DATA 	Keypress: space
+21.8919 	EXP 	New trial (rep=44, index=0): None
+21.9038 	EXP 	trial1Target: autoDraw = False
+21.9038 	EXP 	trial1Home: autoDraw = False
+21.9038 	EXP 	trial1Cursor: autoDraw = False
+21.9038 	EXP 	trial1Num: autoDraw = False
+21.9038 	EXP 	trial1Num: text = '45'
+21.9038 	EXP 	trial1Cursor: pos = (0.5, 0.5)
+21.9038 	EXP 	trial1Target: autoDraw = True
+21.9038 	EXP 	trial1Home: autoDraw = True
+21.9038 	EXP 	trial1Cursor: autoDraw = True
+21.9038 	EXP 	trial1Num: autoDraw = True
+22.1103 	DATA 	Keypress: space
+22.1153 	EXP 	trial1Target: autoDraw = False
+22.1153 	EXP 	trial1Home: autoDraw = False
+22.1153 	EXP 	trial1Cursor: autoDraw = False
+22.1153 	EXP 	trial1Num: autoDraw = False
+22.1153 	EXP 	instr2: autoDraw = True
+22.3009 	DATA 	Keypress: space
+22.3103 	EXP 	instr2: autoDraw = False
+22.3103 	EXP 	fix2: autoDraw = True
+23.2963 	EXP 	Created sequence: sequential, trialTypes=1, nReps=45, seed=None
+23.2973 	EXP 	New trial (rep=0, index=0): None
+23.3105 	EXP 	fix2: autoDraw = False
+23.3105 	EXP 	fix2: autoDraw = False
+23.3105 	EXP 	trial2Num: text = '1'
+23.3105 	EXP 	trial2Cursor: pos = (0.5, 0.5)
+23.3105 	EXP 	trial2Target: autoDraw = True
+23.3105 	EXP 	trial2Home: autoDraw = True
+23.3105 	EXP 	trial2Cursor: autoDraw = True
+23.3105 	EXP 	trial2Num: autoDraw = True
+37.6327 	EXP 	New trial (rep=1, index=0): None
+37.6448 	EXP 	trial2Target: autoDraw = False
+37.6448 	EXP 	trial2Home: autoDraw = False
+37.6448 	EXP 	trial2Cursor: autoDraw = False
+37.6448 	EXP 	trial2Num: autoDraw = False
+37.6448 	EXP 	trial2Num: text = '2'
+37.6448 	EXP 	trial2Cursor: pos = (0.5, 0.5)
+37.6448 	EXP 	trial2Target: autoDraw = True
+37.6448 	EXP 	trial2Home: autoDraw = True
+37.6448 	EXP 	trial2Cursor: autoDraw = True
+37.6448 	EXP 	trial2Num: autoDraw = True
+55.5967 	EXP 	New trial (rep=2, index=0): None
+55.6094 	EXP 	trial2Target: autoDraw = False
+55.6094 	EXP 	trial2Home: autoDraw = False
+55.6094 	EXP 	trial2Cursor: autoDraw = False
+55.6094 	EXP 	trial2Num: autoDraw = False
+55.6094 	EXP 	trial2Num: text = '3'
+55.6094 	EXP 	trial2Cursor: pos = (0.5, 0.5)
+55.6094 	EXP 	trial2Target: autoDraw = True
+55.6094 	EXP 	trial2Home: autoDraw = True
+55.6094 	EXP 	trial2Cursor: autoDraw = True
+55.6094 	EXP 	trial2Num: autoDraw = True
+63.5546 	DATA 	Keypress: escape
+63.9959 	EXP 	window1: mouseVisible = True
